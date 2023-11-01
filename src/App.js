@@ -31,15 +31,15 @@ function App() {
           <input type="button" value='*'className='operator' onClick={(e)=>setValue(value + e.target.value)}/>
         </div>
         <div>
+          <input type="button" value='4' onClick={(e)=>setValue(value + e.target.value)}/>
+          <input type="button" value='5' onClick={(e)=>setValue(value + e.target.value)}/>
           <input type="button" value='6' onClick={(e)=>setValue(value + e.target.value)}/>
-          <input type="button" value='7' onClick={(e)=>setValue(value + e.target.value)}/>
-          <input type="button" value='8' onClick={(e)=>setValue(value + e.target.value)}/>
           <input type="button" value='+' className='operator' onClick={(e)=>setValue(value + e.target.value)}/>
         </div>
         <div>
-          <input type="button" value='3' onClick={(e)=>setValue(value + e.target.value)}/>
-          <input type="button" value='2' onClick={(e)=>setValue(value + e.target.value)}/>
           <input type="button" value='1' onClick={(e)=>setValue(value + e.target.value)}/>
+          <input type="button" value='2' onClick={(e)=>setValue(value + e.target.value)}/>
+          <input type="button" value='3' onClick={(e)=>setValue(value + e.target.value)}/>
           <input type="button" value='-' className='operator' onClick={(e)=>setValue(value + e.target.value)}/>
         </div>
         <div>
